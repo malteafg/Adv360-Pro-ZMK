@@ -49,11 +49,11 @@
 
         layer_keypad {
             bindings = <
-     &none   &none   &none   &none   &none   &none               &none                                                          &none   &none   &none          &none             &none         &none              &none
-   &kp TAB   &kp Q   &kp C   &kp L   &kp M   &kp K               &none                                                          &none   &kp Z   &kp F          &kp U  &kp SINGLE_QUOTE         &kp Y  &sk RIGHT_CONTROL
-   &kp ESC   &kp A   &kp S   &kp R   &kp T   &kp G               &none    &none   &none                   &none      &none      &none   &kp P   &kp N          &kp E             &kp O         &kp I  &kp DOUBLE_QUOTES
- &kp LSHFT   &kp X   &kp V   &kp W   &kp D   &kp J                                &none                   &none                         &kp B   &kp H  &kp SEMICOLON         &kp COLON  &kp QUESTION      &kp BACKSLASH
-     &none   &none   &none   &none   &none                    &kp BSPC  &kp DEL   &none                   &none  &kp ENTER  &kp KP_N0           &none          &none             &none         &none              &none
+     &none      &none      &none      &none      &none      &none               &none                                                          &none      &none      &none          &none             &none         &none              &none
+   &kp TAB  &kp LS(Q)  &kp LS(C)  &kp LS(L)  &kp LS(M)  &kp LS(K)               &none                                                          &none  &kp LS(Z)  &kp LS(F)      &kp LS(U)  &kp SINGLE_QUOTE     &kp LS(Y)  &sk RIGHT_CONTROL
+   &kp ESC  &kp LS(A)  &kp LS(S)  &kp LS(R)  &kp LS(T)  &kp LS(G)               &none    &none   &none                   &none      &none      &none  &kp LS(P)  &kp LS(N)      &kp LS(E)         &kp LS(O)     &kp LS(I)  &kp DOUBLE_QUOTES
+ &kp LSHFT  &kp LS(X)  &kp LS(V)  &kp LS(W)  &kp LS(D)  &kp LS(J)                                &none                   &none                        &kp LS(B)  &kp LS(H)  &kp SEMICOLON         &kp COLON  &kp QUESTION      &kp BACKSLASH
+     &none      &none      &none      &none      &none                       &kp BSPC  &kp DEL   &none                   &none  &kp ENTER  &kp KP_N0                 &none          &none             &none         &none              &none
             >;
         };
 
@@ -69,11 +69,11 @@
 
         layer_mod {
             bindings = <
-  &none            &none          &none     &none       &none   &none            &none                                                   &none   &none      &none          &none      &none      &none   &none
-  &none            &none          &none     &none       &none   &none            &none                                                   &none   &none      &none          &none      &none      &none   &none
-  &none  &kp EXCLAMATION  &kp AMPERSAND  &kp HASH  &kp DOLLAR   &none            &none   &none   &none                   &none   &none   &none   &none  &kp TILDE  &kp AMPERSAND   &kp PIPE  &kp GRAVE   &none
-  &none            &none          &none     &none       &none   &none                            &none                   &none                   &none      &none  &kp SEMICOLON  &kp COLON      &none   &none
-  &none            &none          &none     &none       &none                    &none   &none   &none                   &none   &none   &none              &none          &none      &none      &none   &none
+  &none            &none   &none     &none       &none   &none            &none                                                   &none   &none      &none          &none      &none      &none   &none
+  &none            &none   &none     &none       &none   &none            &none                                                   &none   &none      &none          &none      &none      &none   &none
+  &none  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR   &none            &none   &none   &none                   &none   &none   &none   &none  &kp TILDE  &kp AMPERSAND   &kp PIPE  &kp GRAVE   &none
+  &none            &none   &none     &none       &none   &none                            &none                   &none                   &none      &none  &kp SEMICOLON  &kp COLON      &none   &none
+  &none            &none   &none     &none       &none                    &none   &none   &none                   &none   &none   &none              &none          &none      &none      &none   &none
             >;
         };
 
