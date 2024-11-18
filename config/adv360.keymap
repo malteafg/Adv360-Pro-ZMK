@@ -69,11 +69,11 @@
 
         layer_mod {
             bindings = <
-  &none            &none          &none           &none        &none   &none            &none                                                   &none   &none      &none          &none      &none      &none              &none
-  &none       &macro_neq     &macro_leq      &macro_geq        &none   &none            &none                                                   &none   &none      &none          &none      &none      &none  &sk RIGHT_CONTROL
-  &none  &kp EXCLAMATION         &kp AT        &kp HASH   &kp DOLLAR   &none            &none   &none   &none                   &none   &none   &none   &none  &kp TILDE  &kp AMPERSAND   &kp PIPE  &kp GRAVE              &none
-  &none      &macro_nleq  &macro_shleft  &macro_shright  &macro_ngeq   &none                            &none                   &none                   &none      &none  &kp SEMICOLON  &kp COLON      &none              &none
-  &none            &none          &none           &none        &none                    &none   &none   &none                   &none   &none   &none              &none          &none      &none      &none              &none
+  &none            &none          &none           &none        &none   &none            &none                                                   &none           &none          &none          &none      &none         &none              &none
+  &none       &macro_neq     &macro_leq      &macro_geq        &none   &none            &none                                                   &none  &macro_careteq  &macro_pluseq     &macro_and  &macro_or  &macro_equal  &sk RIGHT_CONTROL
+  &none  &kp EXCLAMATION         &kp AT        &kp HASH   &kp DOLLAR   &none            &none   &none   &none                   &none   &none   &none           &none      &kp TILDE  &kp AMPERSAND   &kp PIPE     &kp GRAVE              &none
+  &none      &macro_nleq  &macro_shleft  &macro_shright  &macro_ngeq   &none                            &none                   &none                           &none          &none  &kp SEMICOLON  &kp COLON         &none              &none
+  &none            &none          &none           &none        &none                    &none   &none   &none                   &none   &none   &none                          &none          &none      &none         &none              &none
             >;
         };
 

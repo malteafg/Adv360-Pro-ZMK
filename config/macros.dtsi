@@ -1,3 +1,33 @@
+macro_equal: macro_equal{
+compatible = "zmk,behavior-macro";
+label = "macro_equal";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>, <&kp EQUAL>;
+};
+macro_or: macro_or{
+compatible = "zmk,behavior-macro";
+label = "macro_or";
+#binding-cells = <0>;
+bindings = <&kp PIPE>, <&kp PIPE>;
+};
+macro_and: macro_and{
+compatible = "zmk,behavior-macro";
+label = "macro_and";
+#binding-cells = <0>;
+bindings = <&kp AMPERSAND>, <&kp AMPERSAND>;
+};
+macro_pluseq: macro_pluseq{
+compatible = "zmk,behavior-macro";
+label = "macro_pluseq";
+#binding-cells = <0>;
+bindings = <&kp PLUS>, <&kp EQUAL>;
+};
+macro_careteq: macro_careteq{
+compatible = "zmk,behavior-macro";
+label = "macro_careteq";
+#binding-cells = <0>;
+bindings = <&kp CARET>, <&kp EQUAL>;
+};
 macro_ngeq: macro_ngeq{
 compatible = "zmk,behavior-macro";
 label = "macro_ngeq";
