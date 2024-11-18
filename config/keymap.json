@@ -10,11 +10,11 @@
   ],
   "layers": [
     [
-           "&none",  "&none",  "&none",  "&none",  "&none",  "&none",              "&none",                                                                       "&none",  "&none",  "&none",     "&none",     "&none",    "&none",             "&none",
-         "&kp TAB",  "&kp Q",  "&kp C",  "&kp L",  "&kp M",  "&kp K",              "&none",                                                                       "&none",  "&kp Z",  "&kp F",     "&kp U", "&kp EQUAL",    "&kp Y", "&sk RIGHT_CONTROL",
-         "&kp ESC",  "&kp A",  "&kp S",  "&kp R",  "&kp T",  "&kp G",              "&none",   "&none",  "&none",                      "&none",       "&none",     "&none",  "&kp P",  "&kp N",     "&kp E",     "&kp O",    "&kp I",         "&kp MINUS",
-       "&kp LSHFT",  "&kp X",  "&kp V",  "&kp W",  "&kp D",  "&kp J",                                   "&none",                      "&none",                              "&kp B",  "&kp H", "&kp COMMA",   "&kp DOT", "&kp FSLH",    "&kp UNDERSCORE",
-           "&none",  "&none",  "&none",  "&none",  "&none",                     "&kp BSPC", "&kp DEL",  "&none",                      "&none", "&lt 2 ENTER", "&kp SPACE",            "&none",     "&none",     "&none",    "&none",             "&none"
+           "&none",  "&none",  "&none",  "&none",  "&none",  "&none",           "&bootloader",                                                                   "&bootloader",  "&none",  "&none",     "&none",     "&none",    "&none",             "&none",
+         "&kp TAB",  "&kp Q",  "&kp C",  "&kp L",  "&kp M",  "&kp K",                 "&none",                                                                         "&none",  "&kp Z",  "&kp F",     "&kp U", "&kp EQUAL",    "&kp Y", "&sk RIGHT_CONTROL",
+         "&kp ESC",  "&kp A",  "&kp S",  "&kp R",  "&kp T",  "&kp G",                 "&none",   "&none",  "&none",                      "&none",       "&none",       "&none",  "&kp P",  "&kp N",     "&kp E",     "&kp O",    "&kp I",         "&kp MINUS",
+       "&kp LSHFT",  "&kp X",  "&kp V",  "&kp W",  "&kp D",  "&kp J",                                      "&none",                      "&none",                                "&kp B",  "&kp H", "&kp COMMA",   "&kp DOT", "&kp FSLH",    "&kp UNDERSCORE",
+           "&none",  "&none",  "&none",  "&none",  "&none",                        "&kp BSPC", "&kp DEL",  "&none",                      "&none", "&lt 2 ENTER",   "&kp SPACE",            "&none",     "&none",     "&none",    "&none",             "&none"
     ], [
            "&none",  "&none",  "&none",  "&none",  "&none",  "&none",              "&none",                                                                     "&none",  "&none",  "&none",         "&none",            "&none",        "&none",             "&none",
          "&kp TAB",  "&kp Q",  "&kp C",  "&kp L",  "&kp M",  "&kp K",              "&none",                                                                     "&none",  "&kp Z",  "&kp F",         "&kp U", "&kp SINGLE_QUOTE",        "&kp Y", "&sk RIGHT_CONTROL",
@@ -28,11 +28,11 @@
          "&none",            "&none",  "&kp LESS_THAN", "&kp GREATER_THAN",      "&kp NUMBER_5",  "&none",                                "&none",                      "&none",                      "&kp PERCENT", "&kp NUMBER_6",            "&kp COMMA",               "&kp DOT",    "&kp SLASH",    "&kp UNDERSCORE",
          "&none",            "&none",          "&none",            "&none",             "&none",                     "&trans", "&trans",  "&none",                      "&none", "&trans", "&trans",                        "&none",                "&none",                 "&none",        "&none",             "&none"
     ], [
-        "&none", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                 "&none",                                                                                     "&trans",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",           "&bootloader",                                                                                "&bootloader",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",  "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-        "&none",        "&none",        "&none",        "&none",   "&macro_ver",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-        "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
+        "&none",           "&none",         "&none",    "&none",      "&none",  "&none",           "&none",                                                                           "&none",  "&none",     "&none",         "&none",     "&none",     "&none",  "&none",
+        "&none",           "&none",         "&none",    "&none",      "&none",  "&none",           "&none",                                                                           "&none",  "&none",     "&none",         "&none",     "&none",     "&none",  "&none",
+        "&none", "&kp EXCLAMATION", "&kp AMPERSAND", "&kp HASH", "&kp DOLLAR",  "&none",           "&none",  "&none",  "&none",                      "&none",      "&none",           "&none",  "&none", "&kp TILDE", "&kp AMPERSAND",  "&kp PIPE", "&kp GRAVE",  "&none",
+        "&none",           "&none",         "&none",    "&none",      "&none",  "&none",                               "&none",                      "&none",                                   "&none",     "&none", "&kp SEMICOLON", "&kp COLON",     "&none",  "&none",
+        "&none",           "&none",         "&none",    "&none",      "&none",                     "&none",  "&none",  "&none",                      "&none", "&bl BL_TOG", "&rgb_ug RGB_TOG",               "&none",         "&none",     "&none",     "&none",  "&none"
     ]
   ]
 }
