@@ -40,18 +40,18 @@
 
         default_layer {
             bindings = <
-     &none   &none   &none   &none   &none   &none              &tog 1                                                            &mo 3   &none   &none      &none      &none     &none           &none
-   &kp TAB   &kp Q   &kp C   &kp L   &kp M   &kp K               &none                                                            &none   &kp Z   &kp F      &kp U  &kp EQUAL     &kp Y        &kp BSLH
-   &kp ESC   &kp A   &kp S   &kp R   &kp T   &kp G               &none    &none   &none                   &none        &none      &none   &kp P   &kp N      &kp E      &kp O     &kp I       &kp MINUS
- &kp LSHFT   &kp X   &kp V   &kp W   &kp D   &kp J                                &none                   &none                           &kp B   &kp H  &kp COMMA    &kp DOT  &kp FSLH  &kp UNDERSCORE
-     &none   &none   &none   &none   &none                    &kp BSPC  &kp DEL   &none                   &none  &lt 2 ENTER  &kp SPACE           &none      &none      &none     &none           &none
+     &none   &none   &none   &none   &none   &none               &none                                                            &none   &none   &none      &none      &none     &none              &none
+   &kp TAB   &kp Q   &kp C   &kp L   &kp M   &kp K               &none                                                            &none   &kp Z   &kp F      &kp U  &kp EQUAL     &kp Y  &sk RIGHT_CONTROL
+   &kp ESC   &kp A   &kp S   &kp R   &kp T   &kp G               &none    &none   &none                   &none        &none      &none   &kp P   &kp N      &kp E      &kp O     &kp I          &kp MINUS
+ &kp LSHFT   &kp X   &kp V   &kp W   &kp D   &kp J                                &none                   &none                           &kp B   &kp H  &kp COMMA    &kp DOT  &kp FSLH     &kp UNDERSCORE
+     &none   &none   &none   &none   &none                    &kp BSPC  &kp DEL   &none                   &none  &lt 2 ENTER  &kp SPACE           &none      &none      &none     &none              &none
             >;
         };
 
         layer_keypad {
             bindings = <
      &none   &none   &none   &none   &none   &none               &none                                                          &none   &none   &none          &none             &none         &none              &none
-   &kp TAB   &kp Q   &kp C   &kp L   &kp M   &kp K               &none                                                          &none   &kp Z   &kp F          &kp U  &kp SINGLE_QUOTE         &kp Y   &sk LEFT_CONTROL
+   &kp TAB   &kp Q   &kp C   &kp L   &kp M   &kp K               &none                                                          &none   &kp Z   &kp F          &kp U  &kp SINGLE_QUOTE         &kp Y  &sk RIGHT_CONTROL
    &kp ESC   &kp A   &kp S   &kp R   &kp T   &kp G               &none    &none   &none                   &none      &none      &none   &kp P   &kp N          &kp E             &kp O         &kp I  &kp DOUBLE_QUOTES
  &kp LSHFT   &kp X   &kp V   &kp W   &kp D   &kp J                                &none                   &none                         &kp B   &kp H  &kp SEMICOLON         &kp COLON  &kp QUESTION      &kp BACKSLASH
      &none   &none   &none   &none   &none                    &kp BSPC  &kp DEL   &none                   &none  &kp ENTER  &kp KP_N0           &none          &none             &none         &none              &none
@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
+   &none             &none           &none             &none              &none   &none             &none                                                   &none         &none         &none                 &none                  &none         &none              &none
+ &kp TAB  &kp LEFT_BRACKET  &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp RIGHT_BRACKET   &none             &none                                                   &none     &kp CARET      &kp PLUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp EQUAL  &sk RIGHT_CONTROL
+   &none      &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4   &none             &none   &none   &none                   &none   &none   &none  &kp ASTERISK  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0       &kp KP_MINUS
+   &none             &none   &kp LESS_THAN  &kp GREATER_THAN       &kp NUMBER_5   &none                             &none                   &none                   &kp PERCENT  &kp NUMBER_6             &kp COMMA                &kp DOT     &kp SLASH     &kp UNDERSCORE
+   &none             &none           &none             &none              &none                    &trans  &trans   &none                   &none  &trans  &trans                       &none                 &none                  &none         &none              &none
             >;
         };
 
