@@ -1,3 +1,27 @@
+macro_ngeq: macro_ngeq{
+compatible = "zmk,behavior-macro";
+label = "macro_ngeq";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>, <&kp GREATER_THAN>;
+};
+macro_shright: macro_shright{
+compatible = "zmk,behavior-macro";
+label = "macro_shright";
+#binding-cells = <0>;
+bindings = <&kp GREATER_THAN>, <&kp GREATER_THAN>;
+};
+macro_shleft: macro_shleft{
+compatible = "zmk,behavior-macro";
+label = "macro_shleft";
+#binding-cells = <0>;
+bindings = <&kp LESS_THAN>, <&kp LESS_THAN>;
+};
+macro_nleq: macro_nleq{
+compatible = "zmk,behavior-macro";
+label = "macro_nleq";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>, <&kp LESS_THAN>;
+};
 macro_geq: macro_geq{
 compatible = "zmk,behavior-macro";
 label = "macro_geq";
