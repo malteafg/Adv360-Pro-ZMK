@@ -3,10 +3,11 @@
   "keymap": "default",
   "layout": "LAYOUT",
   "layer_names": [
-    "base",
-    "keypad",
-    "fn",
-    "mod"
+    "Main",
+    "Shift",
+    "Numbers",
+    "mod",
+    "Layer5"
   ],
   "layers": [
     [
@@ -33,6 +34,12 @@
         "&none", "&kp EXCLAMATION",        "&kp AT",       "&kp HASH",  "&kp DOLLAR", "&macro_øø",           "&none",  "&none",  "&none",                      "&none",         "&none",         "&none",   "&macro_muleq",     "&kp TILDE", "&kp AMPERSAND",  "&kp PIPE",    "&kp GRAVE",    "&macro_minuseq",
        "&trans",     "&macro_nleq", "&macro_shleft", "&macro_shright", "&macro_ngeq", "&macro_åå",                               "&none",                      "&none",                                      "&macro_left",  "&macro_right", "&kp SEMICOLON", "&kp COLON", "&macro_diveq",             "&none",
         "&none",           "&none",         "&none",          "&none",       "&none",                        "&none",  "&none",  "&none",                      "&none", "&kp LS(ENTER)", "&kp LS(SPACE)",                           "&none",         "&none",     "&none",        "&none",             "&none"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
