@@ -3,11 +3,11 @@
   "keymap": "default",
   "layout": "LAYOUT",
   "layer_names": [
-    "Main",
-    "Shift",
-    "Numbers",
+    "main",
+    "shift",
+    "numbers",
     "mod",
-    "Layer5"
+    "layer5"
   ],
   "layers": [
     [
@@ -35,11 +35,11 @@
        "&trans",     "&macro_nleq", "&macro_shleft", "&macro_shright", "&macro_ngeq", "&macro_åå",                               "&none",                      "&none",                                      "&macro_left",  "&macro_right", "&kp SEMICOLON", "&kp COLON", "&macro_diveq",             "&none",
         "&none",           "&none",         "&none",          "&none",       "&none",                        "&none",  "&none",  "&none",                      "&none", "&kp LS(ENTER)", "&kp LS(SPACE)",                           "&none",         "&none",     "&none",        "&none",             "&none"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+                  "&none",            "&none",      "&none",      "&none",      "&none",        "&none",           "&none",                                                              "&none",        "&none",    "&none",             "&none",         "&none",         "&none",     "&none",
+               "&sk LALT", "&kp K_PLAY_PAUSE", "&kp K_PREV", "&kp K_NEXT", "&kp K_MUTE", "&kp K_VOL_UP",           "&none",                                                              "&none",    "&kp PG_UP", "&kp HOME",      "&kp LC(LEFT)", "&kp LC(RIGHT)",       "&kp END", "&sk RCTRL",
+                 "&trans",           "&trans",     "&trans",     "&trans",     "&trans", "&kp K_VOL_DN",           "&none",  "&none",  "&none",                      "&none",  "&none",  "&none",    "&kp PG_DN", "&kp DOWN",            "&kp UP",     "&kp RIGHT", "&kp BACKSPACE",   "&kp DEL",
+       "&sk LEFT_CONTROL",           "&trans",     "&trans",     "&trans",     "&trans",       "&trans",                               "&none",                      "&none",                     "&kp CAPSLOCK", "&kp LEFT", "&kp LC(BACKSPACE)",   "&kp LC(DEL)",         "&none",     "&none",
+                  "&none",            "&none",      "&none",      "&none",      "&none",                           "&none",  "&none",  "&none",                      "&none", "&trans", "&trans",                    "&none",             "&none",         "&none",         "&none",     "&none"
     ]
   ]
 }
