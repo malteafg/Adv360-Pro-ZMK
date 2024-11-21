@@ -1,39 +1,3 @@
-macro_åå: macro_åå{
-compatible = "zmk,behavior-macro";
-label = "macro_åå";
-#binding-cells = <0>;
-bindings = <&kp LS(A)>, <&kp LS(A)>;
-};
-macro_øø: macro_øø{
-compatible = "zmk,behavior-macro";
-label = "macro_øø";
-#binding-cells = <0>;
-bindings = <&kp LS(O)>, <&kp LS(E)>;
-};
-macro_ææ: macro_ææ{
-compatible = "zmk,behavior-macro";
-label = "macro_ææ";
-#binding-cells = <0>;
-bindings = <&kp LS(A)>, <&kp LS(E)>;
-};
-macro_å: macro_å{
-compatible = "zmk,behavior-macro";
-label = "macro_å";
-#binding-cells = <0>;
-bindings = <&kp A>, <&kp A>;
-};
-macro_ø: macro_ø{
-compatible = "zmk,behavior-macro";
-label = "macro_ø";
-#binding-cells = <0>;
-bindings = <&kp O>, <&kp E>;
-};
-macro_æ: macro_æ{
-compatible = "zmk,behavior-macro";
-label = "macro_æ";
-#binding-cells = <0>;
-bindings = <&kp A>, <&kp E>;
-};
 macro_diveq: macro_diveq{
 compatible = "zmk,behavior-macro";
 label = "macro_diveq";
