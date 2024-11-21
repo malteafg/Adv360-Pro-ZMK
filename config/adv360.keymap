@@ -83,7 +83,7 @@
          &sk LALT  &kp K_PLAY_PAUSE   &kp K_PREV  &kp K_NEXT  &kp K_MUTE  &kp K_VOL_UP                 &none                                                           &none     &kp PG_UP  &kp HOME       &kp LC(LEFT)  &kp LC(RIGHT)        &kp END  &sk RCTRL
            &trans   &kp LC(LS(TAB))  &kp LC(TAB)   &kp LC(W)   &kp LC(T)  &kp K_VOL_DN                 &none   &none   &none                   &none        &none      &none     &kp PG_DN  &kp DOWN             &kp UP      &kp RIGHT  &kp BACKSPACE    &kp DEL
  &sk LEFT_CONTROL             &none    &kp LC(Z)   &kp LC(X)   &kp LC(C)     &kp LC(V)                                 &none                   &none                          &kp CAPSLOCK  &kp LEFT  &kp LC(BACKSPACE)    &kp LC(DEL)          &none      &none
-            &none             &none        &none       &none       &none                          &kp LSHIFT   &none   &none                   &none  &lt 6 ENTER  &kp SPACE                   &none              &none          &none          &none      &none
+            &none             &none        &none       &none       &none                          &kp LSHIFT   &none   &none                   &none  &lt 5 ENTER  &kp SPACE                   &none              &none          &none          &none      &none
             >;
         };
 
@@ -99,11 +99,11 @@
 
         layer_winman {
             bindings = <
-  &none   &none   &none   &none         &none   &none                 &none                                                                 &none   &none         &none       &none          &none   &none      &none
-  &none   &none   &none   &none  &kp LEFT_GUI   &none                 &none                                                                 &none   &none         &none       &none          &none   &none  &sk LCTRL
-  &none   &none   &none   &none         &none   &none                 &none   &none   &none                   &none          &none          &none   &none  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)   &none      &none
-  &none   &none   &none   &none         &none   &none                                 &none                   &none                                 &none  &kp LG(LEFT)       &none          &none   &none      &none
-  &none   &none   &none   &none         &none                    &sk LSHIFT  &trans   &none                   &none  &kp LG(ENTER)  &kp LG(SPACE)                 &none       &none          &none   &none      &none
+       &none            &none       &none      &none         &none   &none                 &none                                                                 &none   &none         &none       &none          &none   &none      &none
+ &kp LA(TAB)  &kp LC(LA(DEL))  &kp LA(F4)  &kp LG(L)  &kp LEFT_GUI   &none                 &none                                                                 &none   &none         &none       &none          &none   &none  &sk LCTRL
+       &none            &none       &none      &none         &none   &none                 &none   &none   &none                   &none          &none          &none   &none  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)   &none      &none
+       &none            &none       &none      &none         &none   &none                                 &none                   &none                                 &none  &kp LG(LEFT)       &none          &none   &none      &none
+       &none            &none       &none      &none         &none                    &sk LSHIFT  &trans   &none                   &none  &kp LG(ENTER)  &kp LG(SPACE)                 &none       &none          &none   &none      &none
             >;
         };
 
