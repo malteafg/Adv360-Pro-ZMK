@@ -56,11 +56,11 @@
              "&none", "&kp LG(LC(NUMBER_6))", "&kp LG(LC(NUMBER_7))", "&kp LG(LC(NUMBER_8))", "&kp LG(LC(NUMBER_9))", "&kp LG(LC(NUMBER_0))",                               "&none",                      "&none",                                    "&none", "&kp LG(LEFT)", "&kp LG(LS(LEFT))", "&kp LG(LS(RIGHT))",  "&none",     "&none",
              "&none",                "&none",                "&none",                "&none",                "&none",                                   "&sl 7", "&trans",  "&none",                      "&none", "&kp LG(ENTER)", "&kp LG(SPACE)",                  "&none",            "&none",             "&none",  "&none",     "&none"
     ], [
-             "&none",            "&none",            "&none",  "&none",     "&none",  "&none",            "&none",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
-       "&kp LS(TAB)",            "&none",            "&none",  "&none", "&kp LG(R)",  "&none",            "&none",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
-             "&none", "&kp LG(NUMBER_1)", "&kp LG(NUMBER_2)",  "&none",     "&none",  "&none",            "&none",  "&none",  "&none",                      "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
-             "&none",            "&none",            "&none",  "&none",     "&none",  "&none",                                "&none",                      "&none",                      "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
-             "&none",            "&none",            "&none",  "&none",     "&none",                     "&trans", "&trans",  "&none",                      "&none",  "&none",  "&none",            "&none",  "&none",  "&none",  "&none",  "&none"
+             "&none",            "&none",            "&none",            "&none",            "&none",            "&none",            "&none",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+       "&kp LS(TAB)",            "&none",            "&none",            "&none",        "&kp LG(R)",            "&none",            "&none",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+             "&none", "&kp LG(NUMBER_1)", "&kp LG(NUMBER_2)", "&kp LG(NUMBER_3)", "&kp LG(NUMBER_4)", "&kp LG(NUMBER_5)",            "&none",  "&none",  "&none",                      "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+             "&none", "&kp LG(NUMBER_6)", "&kp LG(NUMBER_7)", "&kp LG(NUMBER_8)", "&kp LG(NUMBER_9)", "&kp LG(NUMBER_0)",                                "&none",                      "&none",                      "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+             "&none",            "&none",            "&none",            "&none",            "&none",                               "&trans", "&trans",  "&none",                      "&none",  "&none",  "&none",            "&none",  "&none",  "&none",  "&none",  "&none"
     ]
   ]
 }
