@@ -1,3 +1,15 @@
+macro_semisemi: macro_semisemi{
+compatible = "zmk,behavior-macro";
+label = "macro_semisemi";
+#binding-cells = <0>;
+bindings = <&kp SEMICOLON>, <&kp SEMICOLON>;
+};
+macro_coloncolon: macro_coloncolon{
+compatible = "zmk,behavior-macro";
+label = "macro_coloncolon";
+#binding-cells = <0>;
+bindings = <&kp COLON>, <&kp COLON>;
+};
 macro_bigae: macro_bigae{
 compatible = "zmk,behavior-macro";
 label = "macro_bigae";
