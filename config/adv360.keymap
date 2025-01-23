@@ -70,7 +70,7 @@
         layer_mod {
             bindings = <
             &none            &none          &none           &none          &none         &none            &none                                                                 &none         &none          &none            &none              &none           &none              &none
-            &none       &macro_neq     &macro_leq      &macro_geq  &kp BACKSLASH  &macro_bigae            &none                                                                 &none         &none  &macro_pluseq       &macro_and          &macro_or  &macro_careteq     &macro_minuseq
+            &none       &macro_neq     &macro_leq      &macro_geq  &kp BACKSLASH  &macro_bigae            &none                                                                 &none         &none  &macro_pluseq       &macro_and          &macro_or  &macro_careteq  &macro_minusminus
  &lt 5 LS(ESCAPE)  &kp EXCLAMATION         &kp AT        &kp HASH     &kp DOLLAR  &macro_bigoe            &none   &none   &none                   &none          &none          &none  &macro_muleq      &kp TILDE    &kp AMPERSAND           &kp PIPE       &kp GRAVE       &macro_equal
            &trans      &macro_nleq  &macro_shleft  &macro_shright    &macro_ngeq  &macro_bigaa                            &none                   &none                                 &macro_left   &macro_right  &macro_semisemi  &macro_coloncolon    &macro_diveq  &sk RIGHT_CONTROL
             &none            &none          &none           &none          &none                          &none   &none   &none                   &none  &kp LS(ENTER)  &kp LS(SPACE)                        &none            &none              &none           &none              &none
